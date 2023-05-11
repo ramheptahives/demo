@@ -1,0 +1,61 @@
+File upload changes:-
+---------------------
+Controllers/Assessment/OnlineExamController.php - questionUploadSave(),questionDelete()
+Controller/certificate/RcSettingController.php - store(),
+Controller/HeaderSettingController.php - store(),
+Contorllers/library/LibraryMagazineController.php - getDocumentID(),deleteDocument(),
+Controllers/ReportCard/Punjab/RcSettingController.php - store()
+Controllers/reportcard/reportcardsettingcontroller.php - store()
+Controllers/ReportCard/ReportcardviewContorller.php - publishAll(),unpublishAll()
+Controllers/ReportCard/ViewReportController.php - publish(),unpublish()
+Controllers/ViewReportTwoController.php - publish(),unpublish()
+
+
+views/headersettings/create.blade.php - 96,107
+views/reportcard/punjab/Rcsetting/create.blade.php - 100,111
+views/reportcard/reportcardsetting/create.blade.php - 68
+views/certificates/characterCertificates/character_certificate_1.blade.php-37,
+views/certificates/characterCertificates/character_certificate_2.blade.php-37,
+views/certificates/characterCertificates/character_certificate_3.blade.php-37,
+views/certificates/characterCertificates/character_certificate_4.blade.php-37,
+views/certificates/characterCertificates/transfer_certificate_1.blade.php-20,
+views/certificates/characterCertificates/transfer_certificate_5.blade.php-20,
+views/certificates/characterCertificates/transfer_certificate_6.blade.php-21
+views/certificates/characterCertificates/transfer_certificate_7.blade.php-21,
+views/fees/documentallNew.blade.php - 21,27
+views/fees/dpsc_document.blade.php -32,38
+views/fees/shsb_document.blade.php - 21,27
+views\ReportCard\reportCardView\mfsd\multipdf.blade.php - 20,26
+views\ReportCard\reportCardView\mfsd\NLEM_multipdf.blade.php - 20,26
+views\ReportCard\reportCardView\mfsd\pdf.blade.php - 20,26
+views\ReportCard\reportCardView\multipdf.blade.php - 20,26
+views\ReportCard\reportCardView\pdf.blade.php - 20,27
+views\ReportCard\reportCardView\sjkp\pdf.blade.php - 20,27
+views\ReportCard\reportCardView\sjkp\multipdf.blade.php - 20,27
+views/ReportCard/ViewReportTwo/multipdf.blade.php - 55
+views/ReportCard/ViewReportTwo/pdf.blade.php - 50
+views/stms/ViewReportTwo/multipdf.blade.php - 21
+views/stms/ViewReportTwo/pdf.blade.php - 21
+views/ViewReportTwo/multipdf.blade.php - 78,86
+views/ViewReportTwo/pdf.blade.php - 78,87
+views/ViewReportTwo/assamultipdf.blade.php - 77,85
+views/ViewReportTwo/lfcsmultipdf.blade.php - 75,83
+views/ViewReportTwo/lfcspdf.blade.php - 76,85
+views/ViewReportTwo/sacsmultipdf.blade.php - 77,85
+views/ViewReportTwo/scktmultipdf.blade.php - 94,102
+views/ViewReportTwo/shghmultipdf.blade.php - 77,85
+views/ViewReportTwo/shcsmultipdf.blade.php - 78,86
+views/ViewReportTwo/shghpdf.blade.php - 76,85
+views/ViewReportTwo/sfdnmultipdf.blade.php - 78,86
+views/ViewReportTwo/sacspdf.blade.php - 77,86
+views/ViewReportTwo/scktpdf.blade.php - 95,104
+views/ViewReportTwo/shkkmultipdf.blade.php - 77,85
+views/ViewReportTwo/sjskpdf.blade.php - 77,86
+views/ViewReportTwo/sjskmultipdf.blade.php - 77,85
+views/ViewReportTwo/smscmultipdf.blade.php - 77,85
+views/ViewReportTwo/shpspdf.blade.php - 76,85
+views/ViewReportTwo/singleView.blade.php - 103,112,
+views/ViewReportTwo/sjcsmultipdf.blade.php - 77,85
+views/ViewReportTwo/sjcqpdf.blade.php - 77,86
+views/ViewReportTwo/sjcqmultipdf.blade.php - 77,85
+views/ViewReportTwo/shpsmultipdf.blade.php - 77,85
