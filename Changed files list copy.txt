@@ -1,6 +1,5 @@
 File upload changes:-
 ---------------------
-added
 Controllers/Assessment/OnlineExamController.php - questionUploadSave(),questionDelete()
 Controller/certificate/RcSettingController.php - store(),
 Controller/HeaderSettingController.php - store(),
